@@ -3,28 +3,9 @@ name: 构建 Magisk 模块
 on:
   workflow_dispatch:
     inputs:
-      rom:
-        description: 'ROM 版本号 (e.g., OS2.0.202.0.VOZCNXM)'
-        required: true
       url:
         description: 'ROM 下载链接'
         required: true
-      android:
-        description: '目标 Android 版本'
-        required: false
-        default: '15'
-        type: choice
-        options:
-          - '15'
-          - '14'
-      fs:
-        description: '镜像解压方式 (米板5系列通常为ext4)'
-        required: false
-        default: 'erofs'
-        type: choice
-        options:
-          - erofs
-          - ext4
 
 jobs:
   build:
@@ -44,13 +25,10 @@ jobs:
 
       - name: 🧪 构建模块
         run: |
-          bash ./build.sh --rom "${{ github.event.inputs.rom }}" \
-                          --url "${{ github.event.inputs.url }}" \
-                          --android "${{ github.event.inputs.android }}" \
-                          --fs "${{ github.event.inputs.fs }}"
+          bash ./build.sh "${{ github.event.inputs.url }}"
 
       - name: 📦 上传构建产物
         uses: actions/upload-artifact@v4
         with:
-          name: "${{ github.event.inputs.rom }}"
+          name: ${{ env.version }}
           path: tmp/release/

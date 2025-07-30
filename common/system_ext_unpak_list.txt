@@ -1,2 +1,3 @@
 /framework/miui-services.jar
 /priv-app/MiuiSystemUI/MiuiSystemUI.apk
+/etc/build.prop
