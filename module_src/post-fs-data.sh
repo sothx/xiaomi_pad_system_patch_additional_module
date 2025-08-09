@@ -1,6 +1,5 @@
 # shellcheck disable=SC2148,SC1091
 MODDIR=${0%/*}
-. "$MODDIR/util_functions.sh"
 
 prop_file="/mi_ext/etc/build.prop"
 module_prop="$MODDIR/module.prop"

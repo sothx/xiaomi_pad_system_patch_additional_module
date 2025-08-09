@@ -43,7 +43,7 @@ done
 # 检查必须参数
 if [[ -z "$input_rom_version" || -z "$input_rom_url" ]]; then
   echo "❌ 错误：必须提供 --rom 和 --url 参数。" >&2
-  echo "用法：bash ./build.sh --rom <ROM_VERSION> --url <ROM_URL>" >&2
+  echo "用法：bash ./$0 --rom <ROM_VERSION> --url <ROM_URL>" >&2
   exit 1
 fi
 

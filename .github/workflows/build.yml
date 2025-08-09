@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: 🧾 克隆仓库
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4.2.2
 
       - name: 🛠 安装依赖
         run: |
@@ -29,7 +29,7 @@ jobs:
                           --url "${{ github.event.inputs.url }}"
 
       - name: 📦 上传构建产物
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4.6.2
         with:
           name: "${{ github.event.inputs.rom }}"
           path: tmp/release/

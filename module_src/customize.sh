@@ -1,6 +1,5 @@
 # shellcheck disable=SC2148,SC2034,SC1091,SC2059
 SKIPUNZIP=0
-. "$MODPATH"/util_functions.sh
 magisk_path=/data/adb/modules/
 module_id=$(grep_prop id "$MODPATH/module.prop")
 
@@ -10,10 +9,12 @@ add_props() {
   echo "$line" >>"$MODPATH/system.prop"
 }
 
-add_post_fs_data() {
-  local line="$1"
-  # shellcheck disable=SC2059
-  printf "\n$line\n" >>"$MODPATH/post-fs-data.sh"
+grep_prop() {
+  local REGEX="s/^$1=//p"
+  shift
+  local FILES=$@
+  [ -z "$FILES" ] && FILES='/system/build.prop'
+  cat $FILES 2>/dev/null | dos2unix | sed -n "$REGEX" | head -n 1
 }
 
 key_check() {
