@@ -10,7 +10,7 @@ jobs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
       - name: 🧾 检出 batch_rom_list.json
-        uses: actions/checkout@v5.0.0
+        uses: actions/checkout@v6.0.1
         with:
           sparse-checkout: |
             batch_rom_list.json
@@ -42,7 +42,7 @@ jobs:
 
     steps:
       - name: 🧾 克隆仓库
-        uses: actions/checkout@v5.0.0
+        uses: actions/checkout@v6.0.1
 
       - name: 🛠 安装依赖
         run: |
