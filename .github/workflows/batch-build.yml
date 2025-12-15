@@ -56,7 +56,7 @@ jobs:
           bash ./build.sh --rom "${{ matrix.rom }}" \
                           --url "$url"
       - name: 📦 上传构建产物
-        uses: actions/upload-artifact@v5.0.0
+        uses: actions/upload-artifact@v6.0.0
         with:
           name: "${{ matrix.device }}-${{ matrix.rom }}"
           path: tmp/release/
@@ -94,7 +94,7 @@ jobs:
           done
 
       - name: 📦 上传总构建产物
-        uses: actions/upload-artifact@v5.0.0
+        uses: actions/upload-artifact@v6.0.0
         with:
           name: batch-build-artifacts-${{ github.run_id }}-${{ steps.datetime.outputs.datetime }}
           path: combined-artifacts/
