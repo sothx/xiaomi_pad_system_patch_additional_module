@@ -66,7 +66,7 @@ jobs:
     needs: build
     steps:
       - name: ⬇️ 下载所有构建产物
-        uses: actions/download-artifact@v6.0.0
+        uses: actions/download-artifact@v7.0.0
         with:
           path: combined-artifacts
 
