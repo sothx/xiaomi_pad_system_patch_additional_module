@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: 🧾 克隆仓库
-        uses: actions/checkout@v5.0.0
+        uses: actions/checkout@v6.0.2
 
       - name: 🛠 安装依赖
         run: |
