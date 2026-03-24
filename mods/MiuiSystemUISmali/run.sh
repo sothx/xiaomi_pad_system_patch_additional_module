@@ -53,7 +53,7 @@ patch_VerticalSplitEntry() {
 
 patch_A14_CvwFull() {
     
-    local MiuiInfinityModeSizeLevelConfigSmali=$(find $workfile/MiuiSystemUI/smali/*/com/android/wm/shell/miuifreeform -type f -iname "MiuiInfinityModeSizeLevelConfig.smali")
+    local MiuiInfinityModeSizeLevelConfigSmali=$(find $workfile MiuiSystemUI/smali/*/com/android/wm/shell/miuifreeform -type f -iname "MiuiInfinityModeSizeLevelConfig.smali")
     if [ -z "$MiuiInfinityModeSizeLevelConfigSmali" ]; then
       echo "❌ 未找到 MiuiInfinityModeSizeLevelConfig.smali"
       exit 1
