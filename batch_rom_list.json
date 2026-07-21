@@ -1,6 +1,10 @@
 {
   "Xiaomi Pad 6 Pro": [
     {
+      "rom": "OS3.0.7.0.VMYCNXM",
+      "url": "https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.7.0.VMYCNXM/liuqin-ota_full-OS3.0.7.0.VMYCNXM-user-15.0-7f569a5149.zip"
+    },
+    {
       "rom": "OS3.0.5.0.VMYCNXM",
       "url": "https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.5.0.VMYCNXM/liuqin-ota_full-OS3.0.5.0.VMYCNXM-user-15.0-39685cb85f.zip"
     },
@@ -33,6 +37,10 @@
   ],
   "Xiaomi Pad 6 Max": [
     {
+      "rom": "OS3.0.5.0.VMHCNXM",
+      "url": "https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.5.0.VMHCNXM/yudi-ota_full-OS3.0.5.0.VMHCNXM-user-15.0-af8d2c5384.zip"
+    },
+    {
       "rom": "OS3.0.4.0.VMHCNXM",
       "url": "https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.4.0.VMHCNXM/yudi-ota_full-OS3.0.4.0.VMHCNXM-user-15.0-f11a9f8346.zip"
     },
@@ -42,6 +50,10 @@
     }
   ],
   "Xiaomi Pad 7": [
+    {
+      "rom": "OS3.0.302.0.WOZCNXM",
+      "url": "https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.302.0.WOZCNXM/uke-ota_full-OS3.0.302.0.WOZCNXM-user-16.0-d8973af359.zip"
+    },
     {
       "rom": "OS3.0.8.0.WOZCNXM",
       "url": "https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.8.0.WOZCNXM/uke-ota_full-OS3.0.8.0.WOZCNXM-user-16.0-b8ab12a445.zip"
@@ -53,6 +65,10 @@
   ],
   "Xiaomi Pad 7 Pro": [
     {
+      "rom": "OS3.0.302.0.WOYCNXM",
+      "url": "https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.302.0.WOYCNXM/muyu-ota_full-OS3.0.302.0.WOYCNXM-user-16.0-a315e1d427.zip"
+    },
+    {
       "rom": "OS3.0.11.0.WOYCNXM",
       "url": "https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.11.0.WOYCNXM/muyu-ota_full-OS3.0.11.0.WOYCNXM-user-16.0-6b09b32df6.zip"
     },
@@ -62,6 +78,10 @@
     }
   ],
   "Xiaomi Pad 8 Pro": [
+    {
+      "rom": "OS3.0.307.0.WPYCNXM",
+      "url": "https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.307.0.WPYCNXM/piano-ota_full-OS3.0.307.0.WPYCNXM-user-16.0-8b22c582a6.zip"
+    },
     {
       "rom": "OS3.0.305.0.WPYCNXM",
       "url": "https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.305.0.WPYCNXM/piano-ota_full-OS3.0.305.0.WPYCNXM-user-16.0-241014a6e6.zip"
